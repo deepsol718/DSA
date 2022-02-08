@@ -1,2 +1,3 @@
 # DSA
-It contains DSA in C++ and Java.
+- it contains data structures and algorithm written in java and C++
+
