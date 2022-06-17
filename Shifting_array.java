@@ -14,7 +14,7 @@ class Main {
         k = k%n; //reducing the value of k because 2k = 3k = 4k means the same thing b
         int[] narr = new int[n]; //  new array to store the shifted array
         for (int i =  0; i<n; i++){
-            int temp = (i-k<0)? i-k+n:i-k; //this particular line does the magic
+            int temp = (i+k)%n; //this particular line does the magic
             narr[i] = arr[temp];
         }
 
